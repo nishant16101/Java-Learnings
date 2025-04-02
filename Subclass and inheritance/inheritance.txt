@@ -1,0 +1,9 @@
+Inheritance in Java : Inheritance is mechanism in Java where one class aquires the properties and behaviors of another class
+  - The parent class is the class being inherited
+  - The child inherits from the parent using extends
+
+Key concepts
+ - 1) Code can be reused across multiple classes
+ -2) Method Overriding- A subclass can redefine a Method of its superclass
+ -3)Super Keyword - used to call parent class methods and constructor
+ -4)constructor chaining - A subclass constructor calls the superclass constructor using super()
