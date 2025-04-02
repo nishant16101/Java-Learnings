@@ -1,0 +1,14 @@
+Encapsulation is the process of wrapping data variables and code into single unit while restricting direct access to some details
+It is fundamental OOP Principal that ensures data security and hides implementation details
+
+How to achiece Encapsulation?
+->Make instance variables private
+Provide public getter and setter methods to access and update private variables
+Ensure controlled access to data
+
+Advantages of Encapsulation
+ Data Hiding: Prevents direct modification of variables.
+ Better Security: Controlled access using getters and setters.
+ Improved Maintainability: Easy to update class logic without affecting other parts of the program.
+ Increased Flexibility: Can modify validation logic without changing external code.
+
