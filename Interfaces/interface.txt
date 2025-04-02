@@ -1,0 +1,15 @@
+An interface in java is a blueprint of class that defines a set of abstract methods(without implementation) and constants.It is used for acheiving full abstraction and multiple inheritance
+
+Key Features of Interfaces
+Defines abstract methods (until Java 7).
+ Can contain default & static methods (Java 8+).
+ Supports multiple inheritance in Java.
+ All variables are public, static, and final by default.
+ All methods are public and abstract by default (except default & static methods in Java 8+).
+ Cannot have constructors (because they cannot be instantiated).
+
+Multiple inheritance is a feature in object-oriented programming where a class can inherit attributes and methods from more than one parent class. This allows a class to combine behaviors from multiple sources, which can be useful in certain scenarios. However, it also introduces complications, like the "Diamond Problem."
+
+The Diamond Problem occurs when two parent classes have a method with the same name, and the child class inherits from both. The ambiguity arises in determining which method the child class should inherit, leading to potential conflicts.
+
+Java does not support multiple inheritance with classes primarily to avoid this complexity. Instead, Java uses an alternative approach: interfaces. Interfaces allow a class to implement multiple sets of behaviors without inheriting the implementation details, thus eliminating the Diamond Problem while still enabling flexibility.
