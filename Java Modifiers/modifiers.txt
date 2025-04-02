@@ -1,0 +1,10 @@
+In java Modifier are keywords that change the accessibility , behavoiur and properties of classes, methods , variables and constructor
+Types of Modifier:
+  1.Access Modifier(Control visibilty)
+  2.Non-Access Modifiers(Change behavoiur & previous)
+
+ Key Notes
+ public → Accessible from anywhere.
+ protected → Accessible in same package + subclasses in different packages.
+ (Default) → Accessible only within the same package.
+ private → Accessible only within the same class.
