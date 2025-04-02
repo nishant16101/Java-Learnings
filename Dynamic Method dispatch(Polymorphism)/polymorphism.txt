@@ -1,0 +1,19 @@
+Polymorphism:
+   Polymorphism is one of the core concepts of Object-Oriented Programming (OOP).It allows methods or functions to behave differently based on the object that invokes them
+   Polymorphism is classified into two types:
+     1. Compile time Polymorphism (Static binding) - Achieved through method overloading
+     2. Run time Polymorphism (Dynamic binding) - Achieved through method overriding 
+
+Dynamic Method Dispatch:
+  Dynamic Method Dispatch also known as Runtime Polymorphism is a mechanism in java where methods calls are resolved at runtime not Compile time
+  key  points-
+    - It is Achieved through method overriding
+    - the method that gets executed is determined by the actual object not the reference
+    - method resolution happens at runtime which enhances flexibility and extensibilty in oop 
+    - Use superclass reference to point to subclass objects
+
+How does Dynamic Dispatch Work?
+A superclass reference is used to refer to a subclass object.
+
+When a method is called using this reference, Java determines at runtime which method to execute (from superclass or subclass).
+
