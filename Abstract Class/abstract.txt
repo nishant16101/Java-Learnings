@@ -1,0 +1,26 @@
+An Abstract class in java is class that cannot be instantiated and is mean to be extended by other classes .It may contain abstract methods
+and concrete methods(with implementation)
+
+Key Features
+-Cannot be instantiated(Objects cannot be directly created)
+-Can have both abstract and concrete methods
+-Forces subclasses to implement abstract methods
+-Can have constructors,static methods and final methods.
+-Can have instance variables and implemented methods
+
+
+ Interview Questions on Abstract Classes
+Why do we need abstract classes in Java?
+→ To enforce a common structure while allowing different implementations in subclasses.
+
+Can an abstract class have constructors?
+→ Yes, constructors are used to initialize fields of an abstract class.
+
+Can an abstract class have static methods?
+→ Yes, static methods belong to the class and can be used without creating an object.
+
+Can we create an object of an abstract class?
+→ No, but we can create an object of a subclass that extends the abstract class.
+
+Can an abstract class implement an interface?
+→ Yes, an abstract class can implement an interface and provide partial implementations.
