@@ -1,0 +1,6 @@
+An iterator in Java is an Object that allows traversing a collection(like list,Set or Map) one element at a time
+
+-Iterator works on collection type
+-It is safer than traditional loops(prevents ConcurrentModificationException)
+-Supports Element removal while iterating (remove() method)
+
