@@ -1,0 +1,13 @@
+A callback is a technique where a method passes another method as an argument and later calls it when needed
+The calling methods does not need to know the exact implementation of the callback method - it just invoke when require
+
+Types of callback in java
+1.Synchronous Callbacks - The callback function is executed immediately
+2.Asynchronous Callbacks-The callback function is executed later
+
+
+Why Use Callbacks
+1.Decouples execution logic from result handling
+2.Improves Flexibility-You can pass different callback implementation
+3.Used in event driven programming
+4.Essential for multi threading and Asynchronous operations
