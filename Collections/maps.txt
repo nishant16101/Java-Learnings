@@ -1,0 +1,5 @@
+A map in Java is a collection that maps key values.It cannot contain duplicate keys but values can be duplicated 
+Keys must be unique
+Allow nulls keys and values
+Belongs to java.util.*
+Is not a subtype of Collection (but part of the Collections Framework)

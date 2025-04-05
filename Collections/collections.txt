@@ -1,0 +1,11 @@
+Concrete collections in Java are actual implemenations of collections interfaces such as List,Set,Queue and Map.These are part of the Java collection Frameworks
+
+They provide ready-to-use data structures like:
+
+ArrayList, LinkedList → implements List
+
+HashSet, TreeSet, LinkedHashSet → implements Set
+
+HashMap, TreeMap, LinkedHashMap → implements Map
+
+PriorityQueue, ArrayDeque → implements Queue
