@@ -1,0 +1,11 @@
+Generics allows you to write type safe reusable code in Java
+Instead of writing the same code for multiple data types, write a single class method interface that works with any object type
+
+Generic Class: Define a class with a placeholder for type.
+
+Generic Method: Define a method that works with any type.
+
+Bounded Types: Restrict generic types to a subclass or interface.
+
+Wildcards: Unknown generic types (?, ? extends, ? super).
+
