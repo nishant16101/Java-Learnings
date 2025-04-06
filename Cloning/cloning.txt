@@ -1,0 +1,9 @@
+Cloning is the process of creating and exact copy of an objects
+Java provides a method called .clone() in the object to suppor cloning
+To allow cloning ,a class must 
+ 1.Inherit Cloneable interface
+ 2.Override the clone() method
+
+Types of cloning
+ 1.Deep Clone - Copies the object and all the nested object recursively
+ 2.Shallow Clone - Copies the object but not the nested object
