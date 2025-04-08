@@ -1,0 +1,7 @@
+A Stream is a sequence of elements supporting sequential and parallel aggregate operations.Think it of like as a pipeline where you send a collection of data through various operations like filter,map,sort and reduce
+Key Features
+ 1.Not a data structure - it does not store elements
+ 2.Lazy evaluation -operations are executed only when needed
+ 3.Can be infinite - eg.Stream.iterate()
+ 4.Supports method chaining
+ 
