@@ -1,0 +1,3 @@
+A monitor in Java is synchronization mechanism that allows only one thread at a time to execute a critical section of code for an object.
+Monitors are implicitly asscociate with every java object
+Java uses monitor behind the scene when you use the synchronized keyword
