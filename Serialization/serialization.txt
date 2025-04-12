@@ -1,0 +1,15 @@
+Serialization is the process of converting Java Object into byte stream, so it can be:
+ 1.Saved to a file 
+ 2.Sent over a network
+ 3.Store in database
+DeSerialization is the reverse process - converting a byte stream back into object
+
+
+Why use Serialization?
+Save the state of an object permanently.
+
+Transfer objects between JVMs or across networks.
+
+Enable deep cloning (as a trick).
+
+Required for many Java EE features (like HTTP sessions).
